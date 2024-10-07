@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="access_key" value="aa160267-f4b1-4b34-8367-b6d7c045b469">
+            <div class="contact-left_title">
+                <h2>Contact Us</h2><br>
+            </div>
+
+            <input class="contact_input" type="text" name="name" placeholder="Enter your name" required><br>
+            <input class="contact_input" type="email" name="email" placeholder="Enter your email" required><br>
+            <textarea class="contact_input" name="message" placeholder="Enter your message" required></textarea><br>
+            <input type="file" class="myfile" name="myfile"><br>
+            <button type="submit" class="s">Submit<br>
+                <img src="arrow_icon.png" alt="Submit">
+            </button>
+        </form>
+        <div class="right-container">
+            <img src="sun.gif" alt="Sun GIF">
+        </div>
+    </div>
+</body>
+
+</html>

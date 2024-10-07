@@ -1,0 +1,127 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+
+
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background: linear-gradient(#87CEEB,#FFC5C5);
+   align-items: center;
+   justify-content: center;
+}
+.left-container{
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;
+}
+.container{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.left-container h2
+{
+    font-weight: 700;
+    color:#FFC5C5;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+.left-container hr{
+    border:none;
+    width: 120px;
+    background-color:aqua;
+    height:5px;
+     
+}
+.container_input,textarea{
+    width:400px;
+    height:50px;
+     border:0;
+     outline:none;
+     border: radius 50px;
+     padding-left: 50px;
+      
+      font-weight: 600;
+
+}
+.left-container textarea{
+    height: 140px;
+    border-radius: 20px;
+}
+.left-container button{
+    border: 0;
+    outline:none;
+    background: linear-gradient(270dog,#ff994F,#FABD86);
+    font-size:16px;
+    padding:15px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    align-content: baseline;
+    justify-content: center;
+    gap:10px;
+}
+.contact_input{
+    border:orangered;
+    border-radius:15px;
+    width:200px;
+    height:25px;
+    
+}
+.left-container button:hover{
+    filter:brightness(120%);
+    font-weight:800;
+}
+@media(max-width:800px){
+    .right-container{
+        display:none;
+    }
+}
+
+textarea{
+    display: flex;
+    align-items: start;
+    padding:0px;
+}
+button{
+    width:auto;
+    display:flex;
+}
+.container{
+row-gap: 10px;
+column-gap: 10px;
+width: fit-content;
+
+}
+.contact_input{
+    row-gap:10px;
+    column-gap: 10px;
+}
+
+.container input,
+.container textarea {
+  margin-bottom: 15px;
+  width: 100%; 
+}
+button:hover{
+    filter: drop-shadow(10px 10px 4px #4444dd);
+}
+.container{
+    box-shadow:orange;
+}
+    .contact_input:hover ,.mylife:hover,.s:hover{
+    filter: drop-shadow(10px 10px 4px #4444dd);
+    color:red;
+    padding:5px;
+    font-size: larger;
+}
+.mylife:hover{
+width:900px;
+}
